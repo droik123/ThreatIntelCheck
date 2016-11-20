@@ -1,0 +1,24 @@
+- Extract Alerts folder in local disk C
+
+# To check IP Reputation in web browser
+1) Press windows + r
+2) Enter cmd and run (keep cmd always open)
+3) In command line, enter "cd /"
+4) Then Enter "cd Alerts"
+5) Key in "Open_Url xxx.xxx.xxx.xxx" (To check, replace xxx with IP)
+6) For new IP, repeat step 5 only.
+
+# After result page is done loading, to take screenshot
+1) Press shift + f2 in web browser, paste the command below for each page.
+
+screenshot C:\Alerts\Screenshots\dshield.png--fullpage
+screenshot C:\Alerts\Screenshots\xforce.png--fullpage
+screenshot C:\Alerts\Screenshots\mcafee.png--fullpage
+screenshot C:\Alerts\Screenshots\ipvoid.png--fullpage
+screenshot C:\Alerts\Screenshots\senderbase.png--fullpage
+screenshot C:\Alerts\Screenshots\multirbl.png--fullpage
+screenshot C:\Alerts\Screenshots\zeustracker.png--fullpage
+screenshot C:\Alerts\Screenshots\ransomwaretracker.png--fullpage
+
+2)All screenshots are saved in C:\Alerts\Screenshots.
+
